@@ -1,0 +1,29 @@
+{
+  "name": "upnext-agency",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Upnext — Premium Marketing Agency for Fashion & Food Brands",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^12.35.2",
+    "gsap": "^3.14.2",
+    "lenis": "^1.3.18",
+    "lucide-react": "^0.577.0",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-icons": "^5.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
