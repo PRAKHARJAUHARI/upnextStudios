@@ -93,9 +93,9 @@ export const metadata = {
 
 export default function WorkPage() {
   return (
-    <div className="pt-20">
+    <div className="pt-16 md:pt-20">
       {/* Page Header */}
-      <section className="py-24 px-6 md:px-12 max-w-[1600px] mx-auto">
+      <section className="pt-10 pb-16 md:py-24 px-6 md:px-12 max-w-[1600px] mx-auto">
         <div className="flex items-center gap-2 mb-8">
           <span className="w-8 h-px bg-crimson" />
           <span className="font-body text-xs text-crimson tracking-widest uppercase">Portfolio</span>

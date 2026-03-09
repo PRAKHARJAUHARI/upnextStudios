@@ -29,41 +29,6 @@ body {
   color: var(--color-white);
   font-family: 'Manrope', sans-serif;
   overflow-x: hidden;
-  cursor: none;
-}
-
-/* Custom cursor */
-.cursor-dot {
-  width: 8px;
-  height: 8px;
-  background: var(--color-crimson);
-  border-radius: 50%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  z-index: 99999;
-  transition: transform 0.1s ease;
-}
-
-.cursor-ring {
-  width: 36px;
-  height: 36px;
-  border: 1px solid rgba(160, 43, 32, 0.55);
-  border-radius: 50%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  z-index: 99998;
-  transition: transform 0.15s ease, width 0.3s ease, height 0.3s ease, background 0.3s ease;
-}
-
-.cursor-ring.hovering {
-  width: 60px;
-  height: 60px;
-  background: rgba(160, 43, 32, 0.12);
-  border-color: var(--color-crimson);
 }
 
 /* Selection */
@@ -271,7 +236,7 @@ body {
 }
 
 .hover-trigger {
-  cursor: none;
+  cursor: pointer;
 }
 
 .float-3d {
