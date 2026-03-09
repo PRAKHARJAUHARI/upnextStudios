@@ -429,7 +429,7 @@ export default function HeroSection() {
             display: "flex",
             flexDirection: "column",
             gap: 8,
-            paddingTop: "clamp(80px, 10vh, 120px)",
+            paddingTop: "clamp(56px, 8vh, 100px)",
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
@@ -442,7 +442,7 @@ export default function HeroSection() {
         <div
           style={{
             position: "absolute",
-            top: "clamp(80px, 10vh, 120px)",
+            top: "clamp(56px, 8vh, 100px)",
             right: "clamp(24px, 5vw, 80px)",
             textAlign: "right",
           }}
@@ -484,7 +484,7 @@ export default function HeroSection() {
             display: "grid",
             gridTemplateColumns: "1fr",
             gap: 0,
-            paddingTop: "clamp(160px, 22vh, 260px)",
+            paddingTop: "clamp(112px, 16vh, 210px)",
           }}
         >
           <span

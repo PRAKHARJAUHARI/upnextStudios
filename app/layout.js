@@ -2,7 +2,6 @@ import './globals.css'
 import { Space_Grotesk, Manrope } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-import CustomCursor from '@/components/CustomCursor'
 import SmoothScrollProvider from '@/components/SmoothScrollProvider'
 
 const spaceGrotesk = Space_Grotesk({
@@ -92,7 +91,6 @@ export default function RootLayout({ children }) {
       </head>
       <body className="bg-black text-white font-body antialiased">
         <SmoothScrollProvider>
-          <CustomCursor />
           <Navbar />
           <main>{children}</main>
           <Footer />
